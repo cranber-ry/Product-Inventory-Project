@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Product Inventory Project (class)", "Product Inventory Project\Product Inventory Project (class).csproj", "{32687C83-F938-4211-947F-38DD4DF0CAC5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "class", "class", "{8B54E3CF-FA29-4361-943C-72CFD898518C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "structure", "structure", "{D452B893-B544-4696-8FA7-FACF01DFFF5A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Product Inventory Project (structure)", "Product Inventory Project (structure)\Product Inventory Project (structure).csproj", "{1CBED9BF-40F4-42FB-91C4-A2DE540D2C8E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Product Inventory Project", "Product Inventory Project", "{D54390BE-939A-4017-8FD4-65857B7D7AEB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Your card", "Your card", "{39BCF7AF-0601-4874-BC95-2F832E594983}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Working with cards", "Task\Working with cards.csproj", "{5C6C59CE-C469-4502-903B-9828B20FD3AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32687C83-F938-4211-947F-38DD4DF0CAC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32687C83-F938-4211-947F-38DD4DF0CAC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32687C83-F938-4211-947F-38DD4DF0CAC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32687C83-F938-4211-947F-38DD4DF0CAC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CBED9BF-40F4-42FB-91C4-A2DE540D2C8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CBED9BF-40F4-42FB-91C4-A2DE540D2C8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CBED9BF-40F4-42FB-91C4-A2DE540D2C8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CBED9BF-40F4-42FB-91C4-A2DE540D2C8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C6C59CE-C469-4502-903B-9828B20FD3AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C6C59CE-C469-4502-903B-9828B20FD3AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C6C59CE-C469-4502-903B-9828B20FD3AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C6C59CE-C469-4502-903B-9828B20FD3AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{32687C83-F938-4211-947F-38DD4DF0CAC5} = {8B54E3CF-FA29-4361-943C-72CFD898518C}
+		{8B54E3CF-FA29-4361-943C-72CFD898518C} = {D54390BE-939A-4017-8FD4-65857B7D7AEB}
+		{D452B893-B544-4696-8FA7-FACF01DFFF5A} = {D54390BE-939A-4017-8FD4-65857B7D7AEB}
+		{1CBED9BF-40F4-42FB-91C4-A2DE540D2C8E} = {D452B893-B544-4696-8FA7-FACF01DFFF5A}
+		{5C6C59CE-C469-4502-903B-9828B20FD3AD} = {39BCF7AF-0601-4874-BC95-2F832E594983}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DAE2FD41-3DF5-4B30-A2C7-FD7190C698C4}
+	EndGlobalSection
+EndGlobal
